@@ -27,8 +27,8 @@
   <div id="wrapper">
     <section id="primary">
       <h3>Genereal Information</h3>
-      <p>I am currently looking for new web development work, Please do not hesitate to contact me!</p>
-      <p></p>
+      <p>Interested in working with me? Contact me!</p>
+      <p>I live in Alexandria, VA</p>
     </section>
     <section id="secondary">
       <h3>Contact Details</h3>
@@ -38,6 +38,19 @@
         <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=henebys">@henebys</a></li>
       </ul>
     </section>
+
+    <div id="map"></div>
+    <script>
+    function initMap() {
+      var mapDiv = document.getElementById('map');
+      var map = new google.maps.Map(mapDiv, {
+        center: {lat: 44.540, lng: -78.546},
+        zoom: 8
+      });
+    }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+    async defer></script>
     <footer>
       <a href="https://twitter.com/henebys"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"/></a>
       <a href="https://www.linkedin.com/in/hewanabreha">
