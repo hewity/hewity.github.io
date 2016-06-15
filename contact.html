@@ -43,9 +43,14 @@
     function initMap() {
       var mapDiv = document.getElementById('map');
       var map = new google.maps.Map(mapDiv, {
-        center: {lat: 44.540, lng: -78.546},
+        center: {lat: 38.837237, lng: -77.052349},
         zoom: 8
       });
+      var marker = new google.maps.Marker({
+        position: {lat: 38.837237, lng: -77.052349},
+        map: map,
+        title: 'Alexandria'
+      })
     }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
