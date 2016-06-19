@@ -24,8 +24,6 @@ h3 {
   margin: 0 0 1em 0;
 }
 
-
-
 /*********************
 HEADING
 **********************/
@@ -54,10 +52,10 @@ h2 {
   font-weight: normal;
 }
 
-
 /*********************
 NAVIGATION
 **********************/
+
 nav {
   text-align: center;
   padding: 10px 0;
@@ -77,6 +75,7 @@ nav a {
   font-weight: 800;
   padding: 15px 10px;
 }
+
 /*********************
 FOOTER
 **********************/
@@ -86,7 +85,7 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ccc;
+  color: #bbb;
 }
 .social-icon {
   width: 20px;
@@ -134,9 +133,11 @@ COLORS
   border-radius: 100%;
 
 }
+
 /*********************
 PAGE: CONTACT
 **********************/
+
 .contact-info {
   list-style: none;
   padding: 0;
