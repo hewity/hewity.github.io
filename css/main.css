@@ -131,7 +131,19 @@ COLORS
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+/*.profile-photo {
+   margin-top: 50px;
+   max-width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   transition: all .5s;
+}*/
 
+.profile-photo:hover {
+  transform: scale(1.5) rotate(360deg);
 }
 
 /*********************
